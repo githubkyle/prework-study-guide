@@ -1,7 +1,10 @@
 var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
 var randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 711825b487ace80e73f2d37ad04bf562d5230c63
 function listTopics() {
   for (var x = 0; x < topics.length; x++) {
     console.log(topics[x]);
